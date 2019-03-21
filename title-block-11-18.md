@@ -15,7 +15,7 @@ Custom Symbol Library > JLAB Toolkit > Title Blocks Inches (or Title Blocks Mill
   - CUSTOM SYMBOL SETTINGS:  
   set Annotation Preferences and Geometry Preferences are to `Use Definition`.  
   
-  ![](tb-01.png)
+  ![](images/tb-01.png)
  
 
 3. Place the symbol anchor point at the lower right corner of the sheet (gray dashed border).
