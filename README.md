@@ -1,3 +1,5 @@
+A collection of procedures that are not used often enough for them to remain committed to memory.  
+
 ## How-to
 - [CHANGE OUT SHEET SIZE](change-sheet-size.md) - Switch from one drawing size to another, without creating a new drawing [[ pdf ]](change-sheet-size.pdf)  
 - [Dash Parts-List](Dash_No_Assy_Parts_List.pdf) - convert a standard (single-configuration) parts-list into a multi-configuration parts-list
