@@ -1,4 +1,5 @@
-A collection of procedures that are not used often enough for them to remain committed to memory.  
+### A collection of procedures curated specifically for the JLab installation of NX/TC  
+This list is (currently) aimed at events that are not used often enough for them to remain committed to (my) memory  
 
 ## How-to
 - [CHANGE OUT SHEET SIZE](change-sheet-size.md) - Switch from one drawing size to another, without creating a new drawing [[ pdf ]](change-sheet-size.pdf)  
