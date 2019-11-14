@@ -8,6 +8,7 @@ This list is (currently) aimed at events that are not used often enough for them
 - [MULTIPLE PARTS LISTS ON A SINGLE DRAWING](multiPartsLists.pdf)
 - [export assemblies to native](Export_Assemblies_Teamcenter_to_Native_NX.htm)
 - [Section View (legacy tool)](sectionLegacy.md) - This Section tool allows more flexibility to creating section views. Deprecated because of file-size/performance cost
+- [Convert the units of a component file](unit_conv.md)
 
 ## Resolving issues/errors
 - [Save-as](saveAs.pdf)  
