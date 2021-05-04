@@ -47,11 +47,6 @@ Translator Log File created at: C:\temp\svt_study.log
 0 files generated warnings
 0 files failed to convert
 ```
-In addition to unit-configuration and filename, the following command defines input (-d) & output (-o) paths
-```
-PS C:\Program Files\Siemens\NX 12.0\NXBIN> .\ug_convert_part.exe -mm 'M:\caduser\cwiggins\project\clas12_study\nx\in\svt_study.prt'
-
-```
 
 examples (Command Prompt):
 ```
@@ -65,6 +60,57 @@ Converting: M:\caduser\cwiggins\project\clas12_study\nx\in\svt_study_orig_mm.prt
 
 1 file required no conversion
 0 files successfully converted
+0 files generated warnings
+0 files failed to convert
+```
+The following command (using the -y flag) converts all of the files referenced/used by the named file
+```
+c:\Program Files\Siemens\NX 12.0\NXBIN>ug_convert_part.exe -mm -y C:\Users\cwiggins\Documents\0305-0911\BM2101-03-05-0911_-.prt
+
+NX Units Conversion Program
+
+Opening: C:\Users\cwiggins\Documents\0305-0911\BM2101-03-05-0911_-.prt
+
+Setting Work Part to: C:\Users\cwiggins\Documents\0305-0911\JL0110521_-.prt
+Converting: C:\Users\cwiggins\Documents\0305-0911\JL0110521_-.prt
+*** WARNING: no conversion required
+
+Setting Work Part to: C:\Users\cwiggins\Documents\0305-0911\JL0110510_-.prt
+Converting: C:\Users\cwiggins\Documents\0305-0911\JL0110510_-.prt
+ Conversion SUCCESS
+Saving: C:\Users\cwiggins\Documents\0305-0911\JL0110510_-.prt
+Looking for config file: tessUG.config
+Looking for config file: tess.config
+Looking for config file: c:\Program Files\Siemens\NX 12.0/pvtrans/tessUG.config .... Found!
+
+Setting Work Part to: C:\Users\cwiggins\Documents\0305-0911\BM2101-03-05-0911-02_-.prt
+Converting: C:\Users\cwiggins\Documents\0305-0911\BM2101-03-05-0911-02_-.prt
+ Conversion SUCCESS
+Saving: C:\Users\cwiggins\Documents\0305-0911\BM2101-03-05-0911-02_-.prt
+Looking for config file: tessUG.config
+Looking for config file: tess.config
+Looking for config file: c:\Program Files\Siemens\NX 12.0/pvtrans/tessUG.config .... Found!
+Translator Log File created at: C:\temp\BM2101-03-05-0911-02_-.log
+
+Setting Work Part to: C:\Users\cwiggins\Documents\0305-0911\BM2101-03-05-0911-01_-.prt
+Converting: C:\Users\cwiggins\Documents\0305-0911\BM2101-03-05-0911-01_-.prt
+ Conversion SUCCESS
+Saving: C:\Users\cwiggins\Documents\0305-0911\BM2101-03-05-0911-01_-.prt
+Looking for config file: tessUG.config
+Looking for config file: tess.config
+Looking for config file: c:\Program Files\Siemens\NX 12.0/pvtrans/tessUG.config .... Found!
+Translator Log File created at: C:\temp\BM2101-03-05-0911-01_-.log
+
+Setting Work Part to: C:\Users\cwiggins\Documents\0305-0911\BM2101-03-05-0911_-.prt
+Converting: C:\Users\cwiggins\Documents\0305-0911\BM2101-03-05-0911_-.prt
+ Conversion SUCCESS
+Saving: C:\Users\cwiggins\Documents\0305-0911\BM2101-03-05-0911_-.prt
+Looking for config file: tessUG.config
+Looking for config file: tess.config
+Looking for config file: c:\Program Files\Siemens\NX 12.0/pvtrans/tessUG.config .... Found!
+
+1 file required no conversion
+4 files successfully converted
 0 files generated warnings
 0 files failed to convert
 ```
