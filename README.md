@@ -16,3 +16,7 @@ This list is (currently) aimed at events that are not used often enough for them
 - [Unexpected structure of in-sync assembly](syncStructure.md)
 
 [[ source docs ]](source-docs)
+
+...and then there was [Honeywell Kronos](https://honeywellinternati-sso.prd.mykronos.com/wfd/home) (sigh)
+- Calendar/Outlook directions
+- JDE hours/accountability
